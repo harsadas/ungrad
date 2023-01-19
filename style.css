@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+  margin: auto;
+}
+.topnav {
+  background-color: rgb(44, 72, 111);
+
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+.main {
+  background-color: white;
+  height: 500px;
+  margin-top: 100px;
+}
+h1{
+  display: inline-block;
+}
+.para {
+  height: auto;
+  width: auto;
+  font-family: "Abril Fatface", cursive;
+}
+.img {
+  float: right;
+  height: 400px;
+  width: 500px;
+}
+.card {
+  background-color: white;
+  height: auto;
+ 
+  margin-top: 20px;
+  width: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#card1,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6,
+#card7,
+#card8,
+#card9,
+#card10 {
+  background-image: linear-gradient(
+    to right,
+    rgb(250, 161, 161),
+    rgb(143, 255, 147)
+    
+  );
+  height: 380px;
+  width: 280px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.cards:hover {
+  background-color: black;
+  border-radius: 20%;
+}
+
+.bottomnav {
+  background-color: rgb(255, 255, 255);
+  height: 1000px;
+  width: 100%;
+  bottom: 0px;
+  margin-top: 10px;
+}
+.footer {
+  background-color: rgb(226, 137, 43);
+  height: 300px;
+  width: 100%;
+  bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (width <= 400px) {
+  body {
+    background-color: rgb(243, 218, 201);
+  }
+}
