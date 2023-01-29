@@ -1,2 +1,2 @@
 # ungrad
-#### Its project about guiding cse student
+#### Its project about guid computer science student.
